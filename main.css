@@ -6,9 +6,10 @@ body {
 }
 
 a {
-    border-style: solid;
-    padding: 5px;
+    padding: 0px;
     border-color: #777777;
+    margin: 5px;
+    display: block;
 }
 
 a:link {
