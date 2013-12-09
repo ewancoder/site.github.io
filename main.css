@@ -1,0 +1,41 @@
+body {
+    max-width: 90%;
+    margin: 0 auto;
+    background-color: #dddddd;
+    text-align: center;
+}
+
+a {
+    border-style: solid;
+    padding: 5px;
+    border-color: #777777;
+}
+
+a:link {
+    color: red;
+}
+
+a:hover {
+    color: #f0a000;
+}
+
+a:visited {
+    color: #666666;
+}
+
+a:active {
+    color: yellow;
+}
+
+article {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+    background-color:#eeeeee;
+    font-size: 1.4em;
+    min-height: 500px;
+    transform: rotate(2deg);
+    -ms-transform: rotate(2deg);
+    -webkit-transform: rotate(2deg);
+    padding: 20px;
+}
