@@ -5,6 +5,17 @@ body {
     text-align: center;
 }
 
+span {
+    border: solid 1px;
+    margin: 4px;
+    padding: 4px;
+    font-style: italic;
+    font-size: 0.95em;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+}
+
 a {
     padding: 0px;
     border-color: #777777;
