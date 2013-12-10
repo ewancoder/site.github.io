@@ -3,6 +3,7 @@ body {
     margin: 0 auto;
     background-color: #dddddd;
     text-align: center;
+    background-image:url('background.png');
 }
 
 span {
