@@ -24,19 +24,81 @@ a {
 }
 
 a:link {
-    color: red;
+    color: #6666a6;
+}
+
+a:visited {
+    color: #66a666;
 }
 
 a:hover {
     color: #f0a000;
 }
 
-a:visited {
+a:active {
+    color: yellow;
+}
+
+.button {
+    -webkit-transition: all .1s ease;
+    -moz-transition: all .1s ease;
+	-ms-transition: all .1s ease;
+	-o-transition: all .1s ease;
+	transition: all .1s ease;
+
+    display:block;
+    height: 40px;
+    width: 200px;
+    margin: 0 auto;
+    background: #aaf;
+    text-align: center;
+
+    background: -webkit-linear-gradient(top, #ddf, #aaf);
+    background: -moz-linear-gradient(top, #ddf, #aaf);
+    background: -o-linear-gradient(top, #ddf, #aaf);
+    background: -ms-linear-gradient(top, #ddf, #aaf);
+    background: linear-gradient(top, #ddf, #aaf);
+
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+
+    /*-webkit-box-shadow: 0 9px 0 #aaf;
+    -moz-box-shadow: 0 2px 0 #aaf;
+    box-shadow: 0 2px 0 #aaf;*/
+    
+    border: solid 2px;
+    font-style: italic;
+    font-size: 1.2em;
+    text-decoration:none;
+}
+
+a.button:visited {
     color: #6666a6;
 }
 
-a:active {
+a.button:hover {
+    color:green;
+    background: #aaf;
+    background: -webkit-linear-gradient(top, #fff, #aaf);
+    background: -moz-linear-gradient(top, #fff, #aaf);
+    background: -o-linear-gradient(top, #fff, #aaf);
+    background: -ms-linear-gradient(top, #fff, #aaf);
+    background: linear-gradient(top, #fff, #aaf);
+}
+
+a.button:active {
+    position: relative;
     color: yellow;
+    border-color: black;
+    top:8px;
+    background: #aaf;
+    background: -webkit-linear-gradient(top, #555, #aaf);
+    background: -moz-linear-gradient(top, #555, #aaf);
+    background: -o-linear-gradient(top, #555, #aaf);
+    background: -ms-linear-gradient(top, #555, #aaf);
+    background: linear-gradient(top, #555, #aaf);
 }
 
 article {
