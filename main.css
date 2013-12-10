@@ -1,9 +1,9 @@
 body {
     max-width: 90%;
     margin: 0 auto;
-    background-color: #dddddd;
+    background-color: #0ddddd;
     text-align: center;
-    background-image:url('/images/background.png');
+    background-image:url('../images/background.png');
 }
 
 span {
