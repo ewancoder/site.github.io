@@ -1,9 +1,9 @@
 body {
     max-width: 90%;
     margin: 0 auto;
-    background-color: #0ddddd;
+    background-color: #dddddd;
     text-align: center;
-    background-image:url('../images/background.png');
+    background-image:url('http://ewancoder.com/images/background.png');
 }
 
 span {
@@ -29,7 +29,7 @@ a:link {
 }
 
 a:visited {
-    color: #66a666;
+    color: #6666a6;
 }
 
 a:hover {
@@ -38,6 +38,22 @@ a:hover {
 
 a:active {
     color: yellow;
+}
+
+a.grn:link {
+    color: #66a666;
+}
+
+a.grn:visited {
+    color: #66a666;
+}
+
+a.grn:hover {
+    color: #f0a000;
+}
+
+a.grn:active {
+    color:yellow;
 }
 
 .button {
