@@ -33,6 +33,15 @@ a {
 .grn:active {
   color: yellow; }
 
+.links {
+  display: inline;
+  margin: 8px;
+  padding: 3px; }
+
+img {
+  width: 50px;
+  height: 50px; }
+
 .button {
   -webkit-transition: all 0.1s ease;
   -moz-transition: all 0.1s ease;
@@ -69,6 +78,9 @@ a {
     color: black;
     border-color: black;
     top: 8px; }
+
+p {
+  margin: 10px; }
 
 article {
   border-style: solid;
