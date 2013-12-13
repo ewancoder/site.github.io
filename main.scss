@@ -64,7 +64,7 @@ a {
     &:link, &:visited {
         color: #66a666;
     }
-    &:hover, {
+    &:hover {
         color: #f0a000;
     }
     &:active {
@@ -73,9 +73,18 @@ a {
 }
 
 .links {
+    @include transition(0.2s);
     display: inline;
     margin: 8px;
     padding: 3px;
+    &:hover {
+        position: relative;
+        top: 6px;
+    }
+    &:active {
+        position: relative;
+        top: 10px;
+    }
 }
 
 img {
