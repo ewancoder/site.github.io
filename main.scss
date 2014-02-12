@@ -1,0 +1,132 @@
+//SCSS main.scss styles
+
+//Mixins
+
+@mixin transition($time) {
+    -webkit-transition: all $time ease;
+    -moz-transition: all $time ease;
+	-ms-transition: all $time ease;
+	-o-transition: all $time ease;
+	transition: all $time ease;
+}
+@mixin gradient($c1, $c2) {
+    background: -webkit-linear-gradient(top, $c1, $c2);
+    background: -moz-linear-gradient(top, $c1, $c2);
+    background: -ms-linear-gradient(top, $c1, $c2);
+    background: -o-linear-gradient(top, $c1, $c2);
+    background: linear-gradient(top, $c1, $c2);
+}
+@mixin transform($deg) {
+    -webkit-transform: rotate($deg);
+    -moz-transform: rotate($deg);
+    -ms-transform: rotate($deg);
+    -o-transform: rotate($deg);
+    transform: rotate($deg);
+}
+    
+//Main scss
+
+body {
+    max-width: 90%;
+    margin: 0 auto;
+    background-color: #dddddd;
+    text-align: center;
+    background-image:url('http://ewancoder.com/images/background.png');
+}
+
+span {
+    background-color: #000;
+    color: #fff;
+    border: solid 1px;
+    border-radius: 5px;
+    margin: 4px;
+    padding: 4px;
+    font-style: italic;
+    font-size: 0.95em;
+}
+
+a {
+    display: block;
+    margin: 5px auto;
+    width: 200px;
+    &:link, &:visited {
+        color: #6666a6;
+    }
+    &:hover {
+        color: #f0a000;
+    }
+    &:active {
+        color: yellow;
+    }
+}
+
+.grn{
+    &:link, &:visited {
+        color: #66a666;
+    }
+    &:hover {
+        color: #f0a000;
+    }
+    &:active {
+        color: yellow;
+    }
+}
+
+.links {
+    @include transition(0.2s);
+    display: inline;
+    margin: 8px;
+    padding: 3px;
+    &:hover {
+        position: relative;
+        top: 6px;
+    }
+    &:active {
+        position: relative;
+        top: 10px;
+    }
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+.button {
+    @include transition(.1s);
+    @include gradient(#ddf, #aaf);
+    height: 35px;
+    border: solid 2px;
+    border-radius: 10px;
+    font-style: italic;
+    font-size: 1.2em;
+    text-decoration:none;
+    &:link, &:visited {
+        color: black;
+    }
+    &:hover {
+        @include gradient(white, #aaf);
+        color: green;
+    }
+    &:active {
+        @include gradient(#ddf, #aaf);
+        position: relative;
+        color: black;
+        border-color: black;
+        top: 8px;
+    }
+}
+
+p {
+    margin: 10px;
+}
+
+article {
+    border-style: solid;
+    border-width: 2px;
+    background-color:#eeeeee;
+    font-size: 1.4em;
+    min-height: 500px;
+    @include transform(2deg);
+    padding: 20px;
+}
