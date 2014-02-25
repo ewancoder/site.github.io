@@ -5,7 +5,7 @@ body {
   text-align: center;
   background-image: url("http://ewancoder.com/images/background.png"); }
 
-span {
+.cool {
   background-color: #000;
   color: #fff;
   border: solid 1px;
@@ -105,3 +105,7 @@ article {
   -o-transform: rotate(2deg);
   transform: rotate(2deg);
   padding: 20px; }
+
+#techinf {
+  font-size: 0.7em;
+  text-align: left; }
