@@ -53,6 +53,24 @@ img {
   width: 50px;
   height: 50px; }
 
+#letters {
+  width: auto;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -20px; }
+
+#daily {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #f0a000;
+  border-radius: 10px;
+  box-shadow: 0px 0px 50px 0px #f0a000; }
+
 .button {
   -webkit-transition: all 0.1s ease;
   -moz-transition: all 0.1s ease;
