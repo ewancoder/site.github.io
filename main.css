@@ -53,6 +53,14 @@ img {
   width: 50px;
   height: 50px; }
 
+#letters {
+  width: auto;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -20px; }
+
 #daily {
   width: 50%;
   height: auto;
