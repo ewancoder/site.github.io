@@ -3,7 +3,7 @@ body {
   margin: 0 auto;
   background-color: #dddddd;
   text-align: center;
-  background-image: url("http://ewancoder.com/images/background.png"); }
+  background-image: url("/images/background.png"); }
 
 .cool {
   background-color: #000;
